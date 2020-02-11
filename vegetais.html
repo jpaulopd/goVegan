@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
 <title>Fresh Food</title><meta http-equiv="content-type" content="text/html;charset=utf-8" />
  <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -156,10 +156,12 @@
       </div>
   </div>
 </nav>
+
+<!-- Início página vegetais-->
 <div class="container">
   <ul class="breadcrumb">
     <li><a href="index.html"><i class="fa fa-home"></i></a></li>
-    <li><a href="category.html">Frutas</a></li>
+    <li><a href="vegetais.html">Vegetais</a></li>
   </ul>
   <div class="row">
     <div id="column-left" class="col-sm-3 hidden-xs column-left">
@@ -167,30 +169,47 @@
         <div class="columnblock-title">Categorias</div>
         <div class="category_block">
           <ul class="box-category treeview-list treeview">
-            <li><a href="#" class="activSub">Ácidas</a></li>
-            <li><a href="#" class="activSub">Semiácidas</a></li>
-            <li><a href="#" class="activSub">Doces</a></li>
-            <li><a href="#">Hiper-hídricas</a></li>
-            <li><a href="#">Oleaginosas</a></li>
+            <li><a href="#" class="activSub">Folhas</a>
+              <ul>
+                <li><a href="#">Orgânicos</a></li>
+                <li><a href="#">Diversos</a></li>
+              </ul>
+            </li>
+            <li><a href="#" class="activSub">Sementes</a>
+              <ul>
+                <li><a href="#">Verdes</a></li>
+                <li><a href="#">Diversos</a></li>
+              </ul>
+            </li>
+            <li><a href="#" class="activSub">Raízes</a>
+              <ul>
+                <li><a href="#">Verdes</a></li>
+                <li><a href="#">Diversas</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Bulbos</a></li>
+            <li><a href="#">Flores</a></li>
+            <li><a href="#">Frutos</a></li>
+            <li><a href="#">Caules</a></li>
             <li><a href="#">Outros</a></li>
           </ul>
         </div>
       </div>
       <div class="panel panel-default filter">
-        <div class="panel-heading columnblock-title">Refinar Pesquisa</div>
+        <div class="panel-heading columnblock-title">Busca refinada</div>
         <div class="filter-block">
-          <div class="list-group"> <a class="list-group-item">Cor</a>
+          <div class="list-group"> <a class="list-group-item">Produtos</a>
             <div class="list-group-item">
               <div id="filter-group1">
                 <label class="checkbox">
                   <input name="filter[]" type="checkbox" value="1" />
-                  Preto (7)</label>
+                  Vegetais (7)</label>
                 <label class="checkbox">
                   <input name="filter[]" type="checkbox" value="2" />
-                  Azul (6)</label>
+                  Sementes (6)</label>
                 <label class="checkbox">
                   <input name="filter[]" type="checkbox" value="3" />
-                  Vermelho (6)</label>
+                  Raízes (6)</label>
               </div>
             </div>
             <a class="list-group-item">Preço</a>
@@ -198,40 +217,40 @@
               <div id="filter-group2">
                 <label class="checkbox">
                   <input name="filter[]" type="checkbox" value="4" />
-                  R$1-R$30 (6)</label>
+                  R$0-R$300 (6)</label>
                 <label class="checkbox">
                   <input name="filter[]" type="checkbox" value="5" />
-                  R$31-R$100 (6)</label>
+                  R$301-R$500 (6)</label>
               </div>
             </div>
-            <a class="list-group-item">Tamanho</a>
+            <a class="list-group-item">Ordem</a>
             <div class="list-group-item">
               <div id="filter-group3">
                 <label class="checkbox">
                   <input name="filter[]" type="checkbox" value="6" />
-                  Grande (3)</label>
+                  Mais comprados (3)</label>
                 <label class="checkbox">
                   <input name="filter[]" type="checkbox" value="7" />
-                  Médio (3)</label>
+                  Mais relevantes (3)</label>
                 <label class="checkbox">
                   <input name="filter[]" type="checkbox" value="8" />
-                  Pequeno (1)</label>
+                  Mais baratos (1)</label>
               </div>
             </div>
           </div>
           <div class="panel-footer text-right">
-            <button type="button" id="button-filter" class="btn btn-primary">Refinar Pesquisa</button>
+            <button type="button" id="button-filter" class="btn btn-primary">Refinar Busca</button>
           </div>
         </div>
       </div>
       <div class="banner" >
-        <div class="item"> <a href="#"><img src="image/fruits/banner2.jpg" alt="Left Banner" class="img-responsive" /></a> </div>
+        <div class="item"> <a href="#"><img src="image/Fresh food.png" alt="Left Banner" class="img-responsive" /></a> </div>
       </div>
-      <!--<h3 class="productblock-title">Specials</h3>
+      <h3 class="productblock-title">Últimos Comprados</h3>
       <div class="row special-grid product-grid">
         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 product-grid-item">
           <div class="product-thumb transition">
-            <div class="image product-imageblock"> <a href="#"><img src="image/product/5product50x59.jpg" alt="women's clothing" title="women's clothing" class="img-responsive" /></a>
+            <div class="image product-imageblock"> <a href="#"><img src="image/product/alface.png" alt="women's clothing" title="women's clothing" class="img-responsive" /></a>
               <div class="button-group">
                 <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
                 <button type="button" class="addtocart-btn" >Add to Cart</button>
@@ -239,19 +258,19 @@
               </div>
             </div>
             <div class="caption product-detail">
-              <h4 class="product-name"> <a href="product.html" title="women's clothing">Clothing</a> </h4>
-              <p class="price product-price"> <span class="price-new">$254.00</span><span class="price-tax">Ex Tax: $210.00</span> </p>
+              <h4 class="product-name"> <a href="#" title="women's clothing">Alface da índia</a> </h4>
+              <p class="price product-price"> <span class="price-new">R$254.00</span><span class="price-tax">Ex Tax: R$210.00</span> </p>
             </div>
             <div class="button-group">
               <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
-              <button type="button" class="addtocart-btn" >Add to Cart</button>
+              <button type="button" class="addtocart-btn" >Comprar</button>
               <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
             </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 product-grid-item">
           <div class="product-thumb transition">
-            <div class="image product-imageblock"> <a href="#"><img src="image/product/1product50x59.jpg" alt="women's clothing" title="women's clothing" class="img-responsive" /></a>
+            <div class="image product-imageblock"> <a href="#"><img src="image/product/ervilha.png" alt="women's clothing" title="women's clothing" class="img-responsive" /></a>
               <div class="button-group">
                 <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
                 <button type="button" class="addtocart-btn" >Add to Cart</button>
@@ -259,18 +278,18 @@
               </div>
             </div>
             <div class="caption product-detail">
-              <h4 class="product-name"> <a href="product.html" title="women's clothing">Clothing</a> </h4>
-              <p class="price product-price"> <span class="price-new">$254.00</span><span class="price-tax">Ex Tax: $210.00</span> </p>
+              <h4 class="product-name"> <a href="#" title="women's clothing">Ervilha americana</a> </h4>
+              <p class="price product-price"> <span class="price-new">R$200.00</span><span class="price-tax">Ex Tax: $210.00</span> </p>
             </div>
             <div class="button-group">
               <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
-              <button type="button" class="addtocart-btn" >Add to Cart</button>
+              <button type="button" class="addtocart-btn" >Comprar</button>
               <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
             </div>
           </div>
         </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 product-grid-item">
           <div class="product-thumb transition">
-            <div class="image product-imageblock"> <a href="#"><img src="image/product/2product50x59.jpg" alt="women's clothing" title="women's clothing" class="img-responsive" /></a>
+            <div class="image product-imageblock"> <a href="#"><img src="image/product/chuchu.png" alt="women's clothing" title="women's clothing" class="img-responsive" /></a>
               <div class="button-group">
                 <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
                 <button type="button" class="addtocart-btn" >Add to Cart</button>
@@ -278,18 +297,18 @@
               </div>
             </div>
             <div class="caption product-detail">
-              <h4 class="product-name"> <a href="product.html" title="women's clothing">Clothing</a> </h4>
-              <p class="price product-price"> <span class="price-new">$254.00</span><span class="price-tax">Ex Tax: $210.00</span> </p>
+              <h4 class="product-name"> <a href="#" title="women's clothing">Chuchu</a> </h4>
+              <p class="price product-price"> <span class="price-new">R$254.00</span><span class="price-tax">Ex Tax: $210.00</span> </p>
             </div>
             <div class="button-group">
               <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
-              <button type="button" class="addtocart-btn" >Add to Cart</button>
+              <button type="button" class="addtocart-btn" >Comprar</button>
               <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
             </div>
           </div>
         </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 product-grid-item">
           <div class="product-thumb transition">
-            <div class="image product-imageblock"> <a href="#"><img src="image/product/5product50x59.jpg" alt="women's clothing" title="women's clothing" class="img-responsive" /></a>
+            <div class="image product-imageblock"> <a href="#"><img src="image/product/amemdoim.png" alt="women's clothing" title="women's clothing" class="img-responsive" /></a>
               <div class="button-group">
                 <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
                 <button type="button" class="addtocart-btn" >Add to Cart</button>
@@ -297,19 +316,19 @@
               </div>
             </div>
             <div class="caption product-detail">
-              <h4 class="product-name"> <a href="product.html" title="women's clothing">Clothing</a> </h4>
-              <p class="price product-price"> <span class="price-new">$254.00</span><span class="price-tax">Ex Tax: $210.00</span> </p>
+              <h4 class="product-name"> <a href="#" title="women's clothing">Amendoim da bulgária</a> </h4>
+              <p class="price product-price"> <span class="price-new">R$254.00</span><span class="price-tax">Ex Tax: $210.00</span> </p>
             </div>
             <div class="button-group">
               <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
-              <button type="button" class="addtocart-btn" >Add to Cart</button>
+              <button type="button" class="addtocart-btn" >Comprar</button>
               <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
             </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 product-grid-item">
           <div class="product-thumb transition">
-            <div class="image product-imageblock"> <a href="#"><img src="image/product/4product50x59.jpg" alt="women's clothing" title="women's clothing" class="img-responsive" /></a>
+            <div class="image product-imageblock"> <a href="#"><img src="image/product/chuchu.png" alt="women's clothing" title="women's clothing" class="img-responsive" /></a>
               <div class="button-group">
                 <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
                 <button type="button" class="addtocart-btn" >Add to Cart</button>
@@ -317,23 +336,23 @@
               </div>
             </div>
             <div class="caption product-detail">
-              <h4 class="product-name"> <a href="product.html" title="women's clothing">Clothing</a> </h4>
-              <p class="price product-price"> <span class="price-new">$254.00</span><span class="price-tax">Ex Tax: $210.00</span> </p>
+              <h4 class="product-name"> <a href="#" title="women's clothing">Chuchu japonês</a> </h4>
+              <p class="price product-price"> <span class="price-new">R$254.00</span><span class="price-tax">Ex Tax: $210.00</span> </p>
             </div>
             <div class="button-group">
               <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
-              <button type="button" class="addtocart-btn" >Add to Cart</button>
+              <button type="button" class="addtocart-btn" >Comprar</button>
               <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
             </div>
           </div>
         </div>
-      </div>-->
+      </div>
     </div>
     <div id="content" class="col-sm-9">
-      <h2 class="category-title">Frutas</h2>
+      <h2 class="category-title"></h2>
       <div class="row category-banner">
-        <div class="col-sm-12 category-image"><img src="image/fruits/banner.jpeg" height="192" width="937" alt="Desktops" title="Desktops" class="img-thumbnail" /></div>
-        <div class="col-sm-12 category-desc">Mantenha-se saudável com uma dieta rica em frutas, selecionamos as melhores para você.</div>
+        <div class="col-sm-12 category-image"><img src="image/banner1.png" alt="Desktops" title="Desktops" class="img-thumbnail" / style="width: 1000px; height: 300px;"></div>
+        <div class="col-sm-12 category-desc">Vegetais, os benefícios são: fontes de vitaminas, minerais e fibras, alcalinizam e fortalecem o sangue e facilitam a digestão.</div>
       </div>
       <div class="category-page-wrapper">
         <div class="col-md-6 list-grid-wrapper">
@@ -341,9 +360,9 @@
             <button type="button" id="list-view" class="btn btn-default list" data-toggle="tooltip" title="List"><i class="fa fa-th-list"></i></button>
             <button type="button" id="grid-view" class="btn btn-default grid" data-toggle="tooltip" title="Grid"><i class="fa fa-th"></i></button>
           </div>
-          <a href="#" id="compare-total">Product Compare (0)</a> </div>
+          <a href="#" id="compare-total">Produtos comprados (0)</a> </div>
         <div class="col-md-1 text-right page-wrapper">
-          <label class="control-label" for="input-limit">Show :</label>
+          <label class="control-label" for="input-limit">Itens por página :</label>
           <div class="limit">
             <select id="input-limit" class="form-control">
               <option value="8" selected="selected">8</option>
@@ -355,18 +374,15 @@
           </div>
         </div>
         <div class="col-md-2 text-right sort-wrapper">
-          <label class="control-label" for="input-sort">Sort By :</label>
+          <label class="control-label" for="input-sort">Ordenar por :</label>
           <div class="sort-inner">
             <select id="input-sort" class="form-control">
-              <option value="ASC" selected="selected">Default</option>
-              <option value="ASC">Name (A - Z)</option>
-              <option value="DESC">Name (Z - A)</option>
-              <option value="ASC">Price (Low &gt; High)</option>
-              <option value="DESC">Price (High &gt; Low)</option>
-              <option value="DESC">Rating (Highest)</option>
-              <option value="ASC">Rating (Lowest)</option>
-              <option value="ASC">Model (A - Z)</option>
-              <option value="DESC">Model (Z - A)</option>
+              <option value="ASC" selected="selected">Mais comprados</option>
+              <option value="ASC">Nome (A - Z)</option>
+              <option value="DESC">Nome (Z - A)</option>
+              <option value="ASC">Menor Preço</option>
+              <option value="DESC">Maior Preço</option>
+              <option value="DESC">Promoção</option>
             </select>
           </div>
         </div>
@@ -375,15 +391,16 @@
       <div class="grid-list-wrapper">
         <div class="product-layout product-list col-xs-12">
           <div class="product-thumb">
-            <div class="image product-imageblock"> <a href="product.html"> <img src="image/fruits/macas.jpg" alt="maçãs" title="Maçãs" class="img-responsive" /> </a>
+            <!--Primeiro pro-->
+            <div class="image product-imageblock"> <a href="#"> <img src="image/alface.png" alt="women's clothing stores" title="lorem ippsum dolor dummy" class="img-responsive" /> </a>
               <div class="button-group">
                 <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List"><i class="fa fa-heart-o"></i></button>
-                <button type="button" class="addtocart-btn">Add to Cart</button>
+                <button type="button" class="addtocart-btn">Comprar</button>
                 <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product"><i class="fa fa-exchange"></i></button>
               </div>
             </div>
             <div class="caption product-detail">
-              <h4 class="product-name"> <a href="product.html" title="lorem ippsum dolor dummy"> Maçã</a> </h4>
+              <h4 class="product-name"> <a href="#" title="lorem ippsum dolor dummy"> Alface Americano </a> </h4>
               <p class="product-desc"> More room to move.
 
                 With 80GB or 160GB of storage and up to 40 hours of battery life, the new lorem ippsum dolor dummy lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go.
@@ -391,7 +408,7 @@
                 Cover Flow.
 
                 Browse through your music collection by flipping..</p>
-              <p class="price product-price"><span class="price-old">R$5.00</span> R$4.70 <span class="price-tax">Ex Tax: $100.00</span> </p>
+              <p class="price product-price"><span class="price-old">R$272.00</span> R$122.00 <span class="price-tax">Ex Tax: $100.00</span> </p>
               <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> </div>
             </div>
             <div class="button-group">
@@ -402,15 +419,15 @@
           </div>
         </div><div class="product-layout product-list col-xs-12">
           <div class="product-thumb">
-            <div class="image product-imageblock"> <a href="product.html"> <img src="image/fruits/bananas.jpg" alt="bananas" title="Bananas" class="img-responsive" /> </a>
+            <div class="image product-imageblock"> <a href="#"> <img src="image/nabo.png" alt="lorem ippsum dolor dummy" title="lorem ippsum dolor dummy" class="img-responsive" /> </a>
               <div class="button-group">
                 <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List"><i class="fa fa-heart-o"></i></button>
-                <button type="button" class="addtocart-btn">Add to Cart</button>
+                <button type="button" class="addtocart-btn">Comprar</button>
                 <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product"><i class="fa fa-exchange"></i></button>
               </div>
             </div>
             <div class="caption product-detail">
-              <h4 class="product-name"> <a href="product.html" title="lorem ippsum dolor dummy"> Banana Prata </a> </h4>
+              <h4 class="product-name"> <a href="#" title="lorem ippsum dolor dummy"> Nabo da índia </a> </h4>
               <p class="product-desc"> More room to move.
 
                 With 80GB or 160GB of storage and up to 40 hours of battery life, the new lorem ippsum dolor dummy lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go.
@@ -418,7 +435,7 @@
                 Cover Flow.
 
                 Browse through your music collection by flipping..</p>
-              <p class="price product-price"><span class="price-old">R$3.10</span> R$2.75 <span class="price-tax">Ex Tax: $100.00</span> </p>
+              <p class="price product-price"><span class="price-old">R$272.00</span> R$122.00 <span class="price-tax">Ex Tax: $100.00</span> </p>
               <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> </div>
             </div>
             <div class="button-group">
@@ -429,15 +446,15 @@
           </div>
         </div><div class="product-layout product-list col-xs-12">
           <div class="product-thumb">
-            <div class="image product-imageblock"> <a href="product.html"> <img src="image/fruits/laranjas.jpg" alt="laranjas" title="Laranjas" class="img-responsive" /> </a>
+            <div class="image product-imageblock"> <a href="#"> <img src="image/grao.png" alt="lorem ippsum dolor dummy" title="lorem ippsum dolor dummy" class="img-responsive" /> </a>
               <div class="button-group">
                 <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List"><i class="fa fa-heart-o"></i></button>
-                <button type="button" class="addtocart-btn">Add to Cart</button>
+                <button type="button" class="addtocart-btn">Comprar</button>
                 <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product"><i class="fa fa-exchange"></i></button>
               </div>
             </div>
             <div class="caption product-detail">
-              <h4 class="product-name"> <a href="product.html" title="lorem ippsum dolor dummy"> Laranja </a> </h4>
+              <h4 class="product-name"> <a href="#" title="lorem ippsum dolor dummy"> Grão de bico </a> </h4>
               <p class="product-desc"> More room to move.
 
                 With 80GB or 160GB of storage and up to 40 hours of battery life, the new lorem ippsum dolor dummy lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go.
@@ -445,7 +462,7 @@
                 Cover Flow.
 
                 Browse through your music collection by flipping..</p>
-              <p class="price product-price"><span class="price-old">R$1.99</span> R$1.75 <span class="price-tax">Ex Tax: $100.00</span> </p>
+              <p class="price product-price"><span class="price-old">R$20.00</span> R$15.00 <span class="price-tax">Ex Tax: $100.00</span> </p>
               <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> </div>
             </div>
             <div class="button-group">
@@ -456,15 +473,15 @@
           </div>
         </div><div class="product-layout product-list col-xs-12">
           <div class="product-thumb">
-            <div class="image product-imageblock"> <a href="product.html"> <img src="image/fruits/limoes.jfif" alt="limões" title="Limões" class="img-responsive" /> </a>
+            <div class="image product-imageblock"> <a href="#"> <img src="image/alho_poro.png" alt="lorem ippsum dolor dummy" title="lorem ippsum dolor dummy" class="img-responsive" /> </a>
               <div class="button-group">
                 <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List"><i class="fa fa-heart-o"></i></button>
-                <button type="button" class="addtocart-btn">Add to Cart</button>
+                <button type="button" class="addtocart-btn">Comprar</button>
                 <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product"><i class="fa fa-exchange"></i></button>
               </div>
             </div>
             <div class="caption product-detail">
-              <h4 class="product-name"> <a href="product.html" title="lorem ippsum dolor dummy"> Limão </a> </h4>
+              <h4 class="product-name"> <a href="#" title="lorem ippsum dolor dummy"> Alho-poró </a> </h4>
               <p class="product-desc"> More room to move.
 
                 With 80GB or 160GB of storage and up to 40 hours of battery life, the new lorem ippsum dolor dummy lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go.
@@ -472,7 +489,34 @@
                 Cover Flow.
 
                 Browse through your music collection by flipping..</p>
-              <p class="price product-price"><span class="price-old">R$1.80</span> R$1.50 <span class="price-tax">Ex Tax: $100.00</span> </p>
+              <p class="price product-price"><span class="price-old">R$30.00</span> $25.00 <span class="price-tax">Ex Tax: $100.00</span> </p>
+              <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> </div>
+            </div>
+            <div class="button-group">
+              <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List"><i class="fa fa-heart-o"></i></button>
+              <button type="button" class="addtocart-btn">Comprar</button>
+              <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product"><i class="fa fa-exchange"></i></button>
+            </div>
+          </div>
+        </div><div class="product-layout product-list col-xs-12">
+          <div class="product-thumb">
+            <div class="image product-imageblock"> <a href="#"> <img src="image/ervilha.png" alt="lorem ippsum dolor dummy" title="lorem ippsum dolor dummy" class="img-responsive" /> </a>
+              <div class="button-group">
+                <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List"><i class="fa fa-heart-o"></i></button>
+                <button type="button" class="addtocart-btn">Comprar</button>
+                <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product"><i class="fa fa-exchange"></i></button>
+              </div>
+            </div>
+            <div class="caption product-detail">
+              <h4 class="product-name"> <a href="#" title="lorem ippsum dolor dummy"> Ervilha </a> </h4>
+              <p class="product-desc"> More room to move.
+
+                With 80GB or 160GB of storage and up to 40 hours of battery life, the new lorem ippsum dolor dummy lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go.
+
+                Cover Flow.
+
+                Browse through your music collection by flipping..</p>
+              <p class="price product-price"><span class="price-old">R$272.00</span> R$122.00 <span class="price-tax">Ex Tax: $100.00</span> </p>
               <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> </div>
             </div>
             <div class="button-group">
@@ -483,15 +527,15 @@
           </div>
         </div><div class="product-layout product-list col-xs-12">
           <div class="product-thumb">
-            <div class="image product-imageblock"> <a href="product.html"> <img src="image/fruits/uvas.jpg" alt="uvas" title="Uvas" class="img-responsive" /> </a>
+            <div class="image product-imageblock"> <a href="#"> <img src="image/nabo.png" alt="lorem ippsum dolor dummy" title="lorem ippsum dolor dummy" class="img-responsive" /> </a>
               <div class="button-group">
                 <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List"><i class="fa fa-heart-o"></i></button>
-                <button type="button" class="addtocart-btn">Add to Cart</button>
+                <button type="button" class="addtocart-btn">Comprar</button>
                 <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product"><i class="fa fa-exchange"></i></button>
               </div>
             </div>
             <div class="caption product-detail">
-              <h4 class="product-name"> <a href="product.html" title="lorem ippsum dolor dummy"> Uva </a> </h4>
+              <h4 class="product-name"> <a href="#" title="lorem ippsum dolor dummy"> Nabo </a> </h4>
               <p class="product-desc"> More room to move.
 
                 With 80GB or 160GB of storage and up to 40 hours of battery life, the new lorem ippsum dolor dummy lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go.
@@ -499,7 +543,7 @@
                 Cover Flow.
 
                 Browse through your music collection by flipping..</p>
-              <p class="price product-price"><span class="price-old">R$2.00</span> R$1.70 <span class="price-tax">Ex Tax: $100.00</span> </p>
+              <p class="price product-price"><span class="price-old">R$272.00</span> R$122.00 <span class="price-tax">Ex Tax: $100.00</span> </p>
               <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> </div>
             </div>
             <div class="button-group">
@@ -510,15 +554,15 @@
           </div>
         </div><div class="product-layout product-list col-xs-12">
           <div class="product-thumb">
-            <div class="image product-imageblock"> <a href="product.html"> <img src="image/fruits/abacaxis.jpg" alt="abacaxis" title="Abacaxis" class="img-responsive" /> </a>
+            <div class="image product-imageblock"> <a href="#"> <img src="image/tomate.png" alt="lorem ippsum dolor dummy" title="lorem ippsum dolor dummy" class="img-responsive" /> </a>
               <div class="button-group">
                 <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List"><i class="fa fa-heart-o"></i></button>
-                <button type="button" class="addtocart-btn">Add to Cart</button>
+                <button type="button" class="addtocart-btn">Comprar</button>
                 <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product"><i class="fa fa-exchange"></i></button>
               </div>
             </div>
             <div class="caption product-detail">
-              <h4 class="product-name"> <a href="product.html" title="lorem ippsum dolor dummy"> Abacaxi </a> </h4>
+              <h4 class="product-name"> <a href="#" title="lorem ippsum dolor dummy"> Tomate </a> </h4>
               <p class="product-desc"> More room to move.
 
                 With 80GB or 160GB of storage and up to 40 hours of battery life, the new lorem ippsum dolor dummy lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go.
@@ -526,7 +570,7 @@
                 Cover Flow.
 
                 Browse through your music collection by flipping..</p>
-              <p class="price product-price"><span class="price-old">R$4.75</span> R$4.40 <span class="price-tax">Ex Tax: $100.00</span> </p>
+              <p class="price product-price"><span class="price-old">R$272.00</span> R$122.00 <span class="price-tax">Ex Tax: $100.00</span> </p>
               <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> </div>
             </div>
             <div class="button-group">
@@ -537,15 +581,15 @@
           </div>
         </div><div class="product-layout product-list col-xs-12">
           <div class="product-thumb">
-            <div class="image product-imageblock"> <a href="product.html"> <img src="image/fruits/meloes.jpg" alt="melões" title="Melões" class="img-responsive" /> </a>
+            <div class="image product-imageblock"> <a href="#"> <img src="image/milho.png" alt="lorem ippsum dolor dummy" title="lorem ippsum dolor dummy" class="img-responsive" /> </a>
               <div class="button-group">
                 <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List"><i class="fa fa-heart-o"></i></button>
-                <button type="button" class="addtocart-btn">Add to Cart</button>
+                <button type="button" class="addtocart-btn">Comprar</button>
                 <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product"><i class="fa fa-exchange"></i></button>
               </div>
             </div>
             <div class="caption product-detail">
-              <h4 class="product-name"> <a href="product.html" title="lorem ippsum dolor dummy"> Melão </a> </h4>
+              <h4 class="product-name"> <a href="#" title="lorem ippsum dolor dummy"> Milho </a> </h4>
               <p class="product-desc"> More room to move.
 
                 With 80GB or 160GB of storage and up to 40 hours of battery life, the new lorem ippsum dolor dummy lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go.
@@ -553,7 +597,7 @@
                 Cover Flow.
 
                 Browse through your music collection by flipping..</p>
-              <p class="price product-price"><span class="price-old">R$3.15</span> R$2.98 <span class="price-tax">Ex Tax: $100.00</span> </p>
+              <p class="price product-price"><span class="price-old">R$272.00</span> R$122.00 <span class="price-tax">Ex Tax: $100.00</span> </p>
               <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> </div>
             </div>
             <div class="button-group">
@@ -564,15 +608,15 @@
           </div>
         </div><div class="product-layout product-list col-xs-12">
           <div class="product-thumb">
-            <div class="image product-imageblock"> <a href="product.html"> <img src="image/fruits/peras.jpg" alt="peras" title="Peras" class="img-responsive" /> </a>
+            <div class="image product-imageblock"> <a href="#"> <img src="image/alho.png" alt="lorem ippsum dolor dummy" title="lorem ippsum dolor dummy" class="img-responsive" /> </a>
               <div class="button-group">
                 <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List"><i class="fa fa-heart-o"></i></button>
-                <button type="button" class="addtocart-btn">Add to Cart</button>
+                <button type="button" class="addtocart-btn">Comprar</button>
                 <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product"><i class="fa fa-exchange"></i></button>
               </div>
             </div>
             <div class="caption product-detail">
-              <h4 class="product-name"> <a href="product.html" title="lorem ippsum dolor dummy"> Pera </a> </h4>
+              <h4 class="product-name"> <a href="#" title="lorem ippsum dolor dummy"> Alho </a> </h4>
               <p class="product-desc"> More room to move.
 
                 With 80GB or 160GB of storage and up to 40 hours of battery life, the new lorem ippsum dolor dummy lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go.
@@ -580,34 +624,7 @@
                 Cover Flow.
 
                 Browse through your music collection by flipping..</p>
-              <p class="price product-price"><span class="price-old">R$5.50</span> R$5.10 <span class="price-tax">Ex Tax: $100.00</span> </p>
-              <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> </div>
-            </div>
-            <div class="button-group">
-              <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List"><i class="fa fa-heart-o"></i></button>
-              <button type="button" class="addtocart-btn">Add to Cart</button>
-              <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product"><i class="fa fa-exchange"></i></button>
-            </div>
-          </div>
-        </div><div class="product-layout product-list col-xs-12">
-          <div class="product-thumb">
-            <div class="image product-imageblock"> <a href="product.html"> <img src="image/fruits/morangos.jpg" alt="morangos" title="Morangos" class="img-responsive" /> </a>
-              <div class="button-group">
-                <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List"><i class="fa fa-heart-o"></i></button>
-                <button type="button" class="addtocart-btn">Add to Cart</button>
-                <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product"><i class="fa fa-exchange"></i></button>
-              </div>
-            </div>
-            <div class="caption product-detail">
-              <h4 class="product-name"> <a href="product.html" title="lorem ippsum dolor dummy"> Morango </a> </h4>
-              <p class="product-desc"> More room to move.
-
-                With 80GB or 160GB of storage and up to 40 hours of battery life, the new lorem ippsum dolor dummy lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go.
-
-                Cover Flow.
-
-                Browse through your music collection by flipping..</p>
-              <p class="price product-price"><span class="price-old">R$3.15</span> R$2.89 <span class="price-tax">Ex Tax: $100.00</span> </p>
+              <p class="price product-price"><span class="price-old">R$272.00</span> R$122.00 <span class="price-tax">Ex Tax: $100.00</span> </p>
               <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> </div>
             </div>
             <div class="button-group">
@@ -619,15 +636,15 @@
         </div>
         <div class="product-layout product-list col-xs-12">
           <div class="product-thumb">
-            <div class="image product-imageblock"> <a href="product.html"> <img src="image/fruits/melancias.jpg" alt="melancias" title="Melancias" class="img-responsive" /> </a>
+            <div class="image product-imageblock"> <a href="#"> <img src="image/acelga.png" alt="lorem ippsum dolor dummy" title="lorem ippsum dolor dummy" class="img-responsive" /> </a>
               <div class="button-group">
                 <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List"><i class="fa fa-heart-o"></i></button>
-                <button type="button" class="addtocart-btn">Add to Cart</button>
+                <button type="button" class="addtocart-btn">Comprar</button>
                 <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product"><i class="fa fa-exchange"></i></button>
               </div>
             </div>
             <div class="caption product-detail">
-              <h4 class="product-name"> <a href="product.html" title="lorem ippsum dolor dummy"> Melancia </a> </h4>
+              <h4 class="product-name"> <a href="#" title="lorem ippsum dolor dummy"> Acelga </a> </h4>
               <p class="product-desc"> More room to move.
 
                 With 80GB or 160GB of storage and up to 40 hours of battery life, the new lorem ippsum dolor dummy lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go.
@@ -635,7 +652,7 @@
                 Cover Flow.
 
                 Browse through your music collection by flipping..</p>
-              <p class="price product-price"> R$0.90 <span class="price-tax">Ex Tax: $100.00</span> </p>
+              <p class="price product-price"> R$122.00 <span class="price-tax">Ex Tax: $100.00</span> </p>
               <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> </div>
             </div>
             <div class="button-group">
@@ -647,15 +664,15 @@
         </div>
         <div class="product-layout product-list col-xs-12">
           <div class="product-thumb">
-            <div class="image product-imageblock"> <a href="product.html"> <img src="image/fruits/pessegos.jpg" alt="pêssegos" title="Pêssegos" class="img-responsive" /> </a>
+            <div class="image product-imageblock"> <a href="#"> <img src="image/mandioca.png" alt="lorem ippsum dolor dummy" title="lorem ippsum dolor dummy" class="img-responsive" /> </a>
               <div class="button-group">
                 <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List"><i class="fa fa-heart-o"></i></button>
-                <button type="button" class="addtocart-btn">Add to Cart</button>
+                <button type="button" class="addtocart-btn">Comprar</button>
                 <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product"><i class="fa fa-exchange"></i></button>
               </div>
             </div>
             <div class="caption product-detail">
-              <h4 class="product-name"> <a href="product.html" title="lorem ippsum dolor dummy"> Pêssego </a> </h4>
+              <h4 class="product-name"> <a href="#" title="lorem ippsum dolor dummy"> Mandioca </a> </h4>
               <p class="product-desc"> More room to move.
 
                 With 80GB or 160GB of storage and up to 40 hours of battery life, the new lorem ippsum dolor dummy lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go.
@@ -663,7 +680,7 @@
                 Cover Flow.
 
                 Browse through your music collection by flipping..</p>
-              <p class="price product-price"> R$5.21 <span class="price-tax">Ex Tax: $100.00</span> </p>
+              <p class="price product-price"> R$122.00 <span class="price-tax">Ex Tax: $100.00</span> </p>
               <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> </div>
             </div>
             <div class="button-group">
@@ -675,15 +692,15 @@
         </div>
         <div class="product-layout product-list col-xs-12">
           <div class="product-thumb">
-            <div class="image product-imageblock"> <a href="product.html"> <img src="image/fruits/goiabas.jpg" alt="goiabas" title="Goiabas" class="img-responsive" /> </a>
+            <div class="image product-imageblock"> <a href="#"> <img src="image/cenoura.png" alt="lorem ippsum dolor dummy" title="lorem ippsum dolor dummy" class="img-responsive" /> </a>
               <div class="button-group">
                 <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List"><i class="fa fa-heart-o"></i></button>
-                <button type="button" class="addtocart-btn">Add to Cart</button>
+                <button type="button" class="addtocart-btn">Comprar</button>
                 <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product"><i class="fa fa-exchange"></i></button>
               </div>
             </div>
             <div class="caption product-detail">
-              <h4 class="product-name"> <a href="product.html" title="lorem ippsum dolor dummy"> Goiaba </a> </h4>
+              <h4 class="product-name"> <a href="#" title="lorem ippsum dolor dummy"> Cenoura </a> </h4>
               <p class="product-desc"> More room to move.
 
                 With 80GB or 160GB of storage and up to 40 hours of battery life, the new lorem ippsum dolor dummy lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go.
@@ -691,7 +708,7 @@
                 Cover Flow.
 
                 Browse through your music collection by flipping..</p>
-              <p class="price product-price"> R$4.25 <span class="price-tax">Ex Tax: $100.00</span> </p>
+              <p class="price product-price"> R$122.00 <span class="price-tax">Ex Tax: $100.00</span> </p>
               <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> </div>
             </div>
             <div class="button-group">
@@ -703,15 +720,15 @@
         </div>
         <div class="product-layout product-list col-xs-12">
           <div class="product-thumb">
-            <div class="image product-imageblock"> <a href="product.html"> <img src="image/fruits/mangas.jpg" alt="mangas" title="Mangas" class="img-responsive" /> </a>
+            <div class="image product-imageblock"> <a href="#"> <img src="image/brocolis.png" alt="lorem ippsum dolor dummy" title="lorem ippsum dolor dummy" class="img-responsive" /> </a>
               <div class="button-group">
                 <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List"><i class="fa fa-heart-o"></i></button>
-                <button type="button" class="addtocart-btn">Add to Cart</button>
+                <button type="button" class="addtocart-btn">Comprar</button>
                 <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product"><i class="fa fa-exchange"></i></button>
               </div>
             </div>
             <div class="caption product-detail">
-              <h4 class="product-name"> <a href="product.html" title="lorem ippsum dolor dummy"> Manga </a> </h4>
+              <h4 class="product-name"> <a href="#" title="lorem ippsum dolor dummy"> Brócolis </a> </h4>
               <p class="product-desc"> More room to move.
 
                 With 80GB or 160GB of storage and up to 40 hours of battery life, the new lorem ippsum dolor dummy lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go.
@@ -719,7 +736,7 @@
                 Cover Flow.
 
                 Browse through your music collection by flipping..</p>
-              <p class="price product-price"> R$4.59 <span class="price-tax">Ex Tax: $100.00</span> </p>
+              <p class="price product-price"> R$122.00 <span class="price-tax">Ex Tax: $100.00</span> </p>
               <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> </div>
             </div>
             <div class="button-group">
@@ -731,15 +748,15 @@
         </div>
         <div class="product-layout product-list col-xs-12">
           <div class="product-thumb">
-            <div class="image product-imageblock"> <a href="product.html"> <img src="image/fruits/ameixas.jpg" alt="ameixas" title="Ameixas" class="img-responsive" /> </a>
+            <div class="image product-imageblock"> <a href="#"> <img src="image/manjericao.png" alt="lorem ippsum dolor dummy" title="lorem ippsum dolor dummy" class="img-responsive" /> </a>
               <div class="button-group">
                 <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List"><i class="fa fa-heart-o"></i></button>
-                <button type="button" class="addtocart-btn">Add to Cart</button>
+                <button type="button" class="addtocart-btn">Comprar</button>
                 <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product"><i class="fa fa-exchange"></i></button>
               </div>
             </div>
             <div class="caption product-detail">
-              <h4 class="product-name"> <a href="product.html" title="lorem ippsum dolor dummy"> Ameixa </a> </h4>
+              <h4 class="product-name"> <a href="#" title="lorem ippsum dolor dummy"> Manjericão </a> </h4>
               <p class="product-desc"> More room to move.
 
                 With 80GB or 160GB of storage and up to 40 hours of battery life, the new lorem ippsum dolor dummy lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go.
@@ -747,7 +764,7 @@
                 Cover Flow.
 
                 Browse through your music collection by flipping..</p>
-              <p class="price product-price"> R$8.00 <span class="price-tax">Ex Tax: $100.00</span> </p>
+              <p class="price product-price"> R$122.00 <span class="price-tax">Ex Tax: $100.00</span> </p>
               <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> </div>
             </div>
             <div class="button-group">
@@ -759,15 +776,15 @@
         </div>
         <div class="product-layout product-list col-xs-12">
           <div class="product-thumb">
-            <div class="image product-imageblock"> <a href="product.html"> <img src="image/fruits/abacates.jpg" alt="abacates" title="Abacates" class="img-responsive" /> </a>
+            <div class="image product-imageblock"> <a href="#"> <img src="image/couve-flor.png" alt="lorem ippsum dolor dummy" title="lorem ippsum dolor dummy" class="img-responsive" /> </a>
               <div class="button-group">
                 <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List"><i class="fa fa-heart-o"></i></button>
-                <button type="button" class="addtocart-btn">Add to Cart</button>
+                <button type="button" class="addtocart-btn">Comprar</button>
                 <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product"><i class="fa fa-exchange"></i></button>
               </div>
             </div>
             <div class="caption product-detail">
-              <h4 class="product-name"> <a href="product.html" title="lorem ippsum dolor dummy"> Abacate </a> </h4>
+              <h4 class="product-name"> <a href="#" title="lorem ippsum dolor dummy"> Couve-flor </a> </h4>
               <p class="product-desc"> More room to move.
 
                 With 80GB or 160GB of storage and up to 40 hours of battery life, the new lorem ippsum dolor dummy lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go.
@@ -775,7 +792,7 @@
                 Cover Flow.
 
                 Browse through your music collection by flipping..</p>
-              <p class="price product-price"> R$2.97 <span class="price-tax">Ex Tax: $100.00</span> </p>
+              <p class="price product-price"> R$122.00 <span class="price-tax">Ex Tax: $100.00</span> </p>
               <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> </div>
             </div>
             <div class="button-group">
@@ -787,15 +804,15 @@
         </div>
         <div class="product-layout product-list col-xs-12">
           <div class="product-thumb">
-            <div class="image product-imageblock"> <a href="product.html"> <img src="image/fruits/kiwis.jpg" alt="kiwis" title="Kiwis" class="img-responsive" /> </a>
+            <div class="image product-imageblock"> <a href="#"> <img src="image/beterraba.png" alt="lorem ippsum dolor dummy" title="lorem ippsum dolor dummy" class="img-responsive" /> </a>
               <div class="button-group">
                 <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List"><i class="fa fa-heart-o"></i></button>
-                <button type="button" class="addtocart-btn">Add to Cart</button>
+                <button type="button" class="addtocart-btn">Comprar</button>
                 <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product"><i class="fa fa-exchange"></i></button>
               </div>
             </div>
             <div class="caption product-detail">
-              <h4 class="product-name"> <a href="product.html" title="lorem ippsum dolor dummy"> Kiwi </a> </h4>
+              <h4 class="product-name"> <a href="#" title="lorem ippsum dolor dummy"> Beterraba chilena </a> </h4>
               <p class="product-desc"> More room to move.
 
                 With 80GB or 160GB of storage and up to 40 hours of battery life, the new lorem ippsum dolor dummy lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go.
@@ -803,7 +820,7 @@
                 Cover Flow.
 
                 Browse through your music collection by flipping..</p>
-              <p class="price product-price"> R$6.99 <span class="price-tax">Ex Tax: $100.00</span> </p>
+              <p class="price product-price"> $122.00 <span class="price-tax">Ex Tax: $100.00</span> </p>
               <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> </div>
             </div>
             <div class="button-group">
@@ -815,7 +832,7 @@
         </div>
       </div>
       <div class="category-page-wrapper">
-        <div class="result-inner">Showing 1 to 8 of 10 (2 Pages)</div>
+        <div class="result-inner">Página 1 a 8</div>
         <div class="pagination-inner">
           <ul class="pagination">
             <li class="active"><span>1</span></li>
@@ -902,20 +919,20 @@
   </div>
   <a id="scrollup">Scroll</a> </footer>
 <div class="footer-bottom">
-  <div class="container">
-    <div class="copyright">Powered By<a class="yourstore" href="http://www.lionode.com/">lionode &copy; 2016 </a> </div>
-    <div class="footer-bottom-cms">
-      <div class="footer-payment">
-        <ul>
-          <li class="mastero"><a href="#"><img alt="" src="image/payment/mastero.jpg"></a></li>
-          <li class="visa"><a href="#"><img alt="" src="image/payment/visa.jpg"></a></li>
-          <li class="currus"><a href="#"><img alt="" src="image/payment/currus.jpg"></a></li>
-          <li class="discover"><a href="#"><img alt="" src="image/payment/discover.jpg"></a></li>
-          <li class="bank"><a href="#"><img alt="" src="image/payment/bank.jpg"></a></li>
-        </ul>
-      </div>
+<div class="container">
+  <div class="copyright">Powered By <a class="yourstore" href="http://www.lionode.com/">&#160;lionode &copy; 2020 </a> </div>
+  <div class="footer-bottom-cms">
+    <div class="footer-payment">
+      <ul>
+        <li class="mastero"><a href="#"><img alt="" src="image/payment/mastero.jpg"></a></li>
+        <li class="visa"><a href="#"><img alt="" src="image/payment/visa.jpg"></a></li>
+        <li class="currus"><a href="#"><img alt="" src="image/payment/currus.jpg"></a></li>
+        <li class="discover"><a href="#"><img alt="" src="image/payment/discover.jpg"></a></li>
+        <li class="bank"><a href="#"><img alt="" src="image/payment/bank.jpg"></a></li>
+      </ul>
     </div>
   </div>
+</div>
 </div>
 </body>
 </html>
